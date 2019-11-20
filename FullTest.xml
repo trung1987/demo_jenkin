@@ -3,6 +3,18 @@
 <!-- <suite name="FullTest" verbose="1" parallel="tests" thread-count="2">  -->
 <suite name="FullTest" verbose="1" > 
   
+  
+   <test name="Chrome" >
+   <parameter name="browser"  value="Chrome"/>  
+    <classes>
+      	<class name="demo.TestCases.Flow000CreateAcc" /> 
+         <class name="demo.TestCases.Flow001Logins" />
+        <class name="demo.TestCases.Flow002Newcustomer" /> 
+    </classes>
+    
+  </test>   
+  
+  
   <test name="FireFox" >
    <parameter name="browser"  value="FF"/> 
    <classes>
@@ -13,14 +25,6 @@
     
   </test> 
   
- <test name="Chrome" >
-   <parameter name="browser"  value="Chrome"/>  
-    <classes>
-      	<class name="demo.TestCases.Flow000CreateAcc" /> 
-         <class name="demo.TestCases.Flow001Logins" />
-        <class name="demo.TestCases.Flow002Newcustomer" /> 
-    </classes>
-    
-  </test>   
+
   
 </suite>
