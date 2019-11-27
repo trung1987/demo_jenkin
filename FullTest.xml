@@ -19,8 +19,8 @@
    <parameter name="browser"  value="FF"/> 
    <classes>
       	<class name="demo.TestCases.Flow000CreateAcc" /> 
-        <class name="demo.TestCases.Flow001Logins" />
-        <class name="demo.TestCases.Flow002Newcustomer" /> 
+       <!--  <class name="demo.TestCases.Flow001Logins" />
+        <class name="demo.TestCases.Flow002Newcustomer" /> --> 
     </classes>
     
   </test> 

@@ -110,7 +110,8 @@ public class BaseTest {
 
 		FileUtils.copyFile(source, finalDestination); // leh copy 1 file tu thu muc goc de 1 thu muc chi dinh
 
-		return finalDestination.getAbsolutePath(); // return duog dan + ten hinh
+		//return finalDestination.getAbsolutePath(); // return duog dan + ten hinh
+		return  "img" + dateName + ".png";
 	}
 
 	@AfterMethod // AfterMethod se chay sau moi @Test
