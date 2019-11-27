@@ -50,7 +50,7 @@ public class BaseTest {
 		extent.attachReporter(htmlReporter);
 
 		if (browser.equalsIgnoreCase("Chrome")) {
-			WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().version("73").setup();
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("FF")) {
 			WebDriverManager.firefoxdriver().setup();
