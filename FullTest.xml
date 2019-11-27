@@ -15,7 +15,7 @@
   </test>   
   
   
-  <test name="FireFox" >
+  <!-- <test name="FireFox" >
    <parameter name="browser"  value="FF"/> 
    <classes>
       	<class name="demo.TestCases.Flow000CreateAcc" /> 
@@ -23,7 +23,7 @@
         <class name="demo.TestCases.Flow002Newcustomer" /> 
     </classes>
     
-  </test> 
+  </test>  -->
   
 
   
